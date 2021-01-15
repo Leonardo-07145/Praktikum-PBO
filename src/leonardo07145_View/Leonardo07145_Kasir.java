@@ -113,8 +113,8 @@ public class Leonardo07145_Kasir {
         hitung.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent ae){
-                for(int i = 1;i<Leonardo07145_AllObjctrl.Barang.getArrbarang().size();i++){
-                    if((Leonardo07145_AllObjctrl.Barang.getArrbarang().get(i).getNama()).equals(textnamabarang.getText())){
+                for(int i = 0; i < Leonardo07145_AllObjctrl.Barang.getArrbarang().size(); i++){
+                    if(Leonardo07145_AllObjctrl.Barang.getArrbarang().get(i).getNama().equals(textnamabarang.getText())){
                         int harga = Leonardo07145_AllObjctrl.Barang.getArrbarang().get(i).getHarga()*Integer.parseInt(textjmlhbarang.getText());
                         texthitung.setText(String.valueOf(harga));
                     }

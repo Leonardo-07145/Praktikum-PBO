@@ -11,7 +11,7 @@ import javax.swing.table.DefaultTableModel;
 import leonardo07145_Controller.Leonardo07145_SoalControllerBarang;
 
 public class Leonardo07145_DataBarang {
-//    public static Leonardo07145_SoalControllerBarang barang = new Leonardo07145_SoalControllerBarang();
+    public static Leonardo07145_SoalControllerBarang barang = new Leonardo07145_SoalControllerBarang();
     JFrame databarang = new JFrame();
     JTable tabelbarang = new JTable();
     JScrollPane scrollbarang = new JScrollPane(tabelbarang);

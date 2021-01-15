@@ -8,7 +8,7 @@ import leonardo07145_Controller.Leonardo07145_SoalControllerPembeli;
 
 public class Leonardo07145_DataPembeli {
     public static Leonardo07145_SoalControllerPembeli pembeli = new Leonardo07145_SoalControllerPembeli();
-    
+            
     JFrame datapembeli = new JFrame();
     JTable tabelpembeli = new JTable();
     JScrollPane scrollpembeli = new JScrollPane(tabelpembeli);
@@ -27,12 +27,6 @@ public class Leonardo07145_DataPembeli {
         back.setBounds(270, 300, 100, 30);
         back.setBackground(Color.RED);
         datapembeli.add(back);
-        
-//        tabelpembeli = new JTable();
-//        tabelpembeli.setModel(daftarpembeli());
-//        JScrollPane scrollpembeli = new JScrollPane(tabelpembeli);
-//        scrollpembeli.setBounds(60, 80, 570, 200);
-//        datapembeli.add(scrollpembeli);
 
         scrollpembeli.setBounds(60, 80, 570, 200);
         tabelpembeli.setModel(pembeli.daftarpembeli());
